@@ -35,7 +35,22 @@ G. '3' + undefined = '3undefined' as + concatenates '3' with undefined converted
 
 H. '3' - undefined = NaN as - can only to the mathematical operation, and any mathematical operation with undefined equals NaN
 
-14.   A. '2' > 1 = true. When we compare string with integer, string is converted to the integer, and as 2>1 is true, outcome is true.\\ B. '2' < '12' = false When both is string, we compare alphabetical order. As '2' has bigger value of first alphabet, '2' < '12' is false.\\ C. 2 == '2' equals true. When we compare string with int, we convert stirng to integer and compare\\ D. 2==='2' equals false, as it compares the value and the type.\\ E. true == 2 equals false. When comparing boolean with integer, the boolean value converts to 1 when true, and 0 when false. Here, 1 does not equal 2.\\ F. true === boolean(2) equals true. Here boolean of 2 equals true, thus value and type both equals to each other.\\
-15.   == compares the value of both sides, while === compares value and the type.
-18.  The outcome will be [2,4,6]. the name of the dosomthing function is passed to variable callback, and it is called to multiply each element in array [1,2,3] and pushes it into new array.
-19.  The outcome is 1 4 3 2. This is because 3 waits till the non setTimeout operations are finished, and 2 waits 1 second after the 3 is executed.
+14.   A. '2' > 1 = true. When we compare string with integer, string is converted to the integer, and as 2>1 is true, outcome is true.
+
+B. '2' < '12' = false When both is string, we compare alphabetical order. As '2' has bigger value of first alphabet, '2' < '12' is false.
+
+C. 2 == '2' equals true. When we compare string with int, we convert stirng to integer and compare
+
+D. 2==='2' equals false, as it compares the value and the type.
+
+E. true == 2 equals false. When comparing boolean with integer, the boolean value converts to 1 when true, and 0 when false. Here, 1 does not equal 2.
+
+F. true === boolean(2) equals true. Here boolean of 2 equals true, thus value and type both equals to each other.
+
+15 == compares the value of both sides, while === compares value and the type.
+
+
+18   The outcome will be [2,4,6]. the name of the dosomthing function is passed to variable callback, and it is called to multiply each element in array [1,2,3] and pushes it into new array.
+
+
+19   The outcome is 1 4 3 2. This is because 3 waits till the non setTimeout operations are finished, and 2 waits 1 second after the 3 is executed.
