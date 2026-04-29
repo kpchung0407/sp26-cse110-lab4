@@ -1,0 +1,2 @@
+1. The code causes a bug as the type of num1 and num2 were strings, thus + did a concatenation not mathematical operation.
+2. Change the data type of num1 and num2 into integers, then + will do the mathematical operation which we expected.
